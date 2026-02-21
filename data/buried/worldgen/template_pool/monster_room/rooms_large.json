@@ -1,0 +1,33 @@
+{
+  "name": "buried:monster_room/rooms_large",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "buried:monster_room/spider_large",
+        "processors": "buried:monster_room/2_chest",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "buried:monster_room/zombie_large",
+        "processors": "buried:monster_room/2_chest",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "buried:monster_room/skeleton_large",
+        "processors": "buried:monster_room/2_chest",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

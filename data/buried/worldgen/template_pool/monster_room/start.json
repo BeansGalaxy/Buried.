@@ -1,0 +1,24 @@
+{
+  "name": "buried:monster_room/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "buried:monster_room/floor",
+        "processors": "buried:monster_room/floor",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "buried:monster_room/floor_large",
+        "processors": "buried:monster_room/floor",
+	    	"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

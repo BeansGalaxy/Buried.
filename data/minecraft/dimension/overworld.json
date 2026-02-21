@@ -1,0 +1,11 @@
+{
+  "type": "buried:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "buried:overworld"
+    },
+    "settings": "minecraft:overworld"
+  }
+}

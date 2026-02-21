@@ -1,0 +1,5 @@
+{
+  "function": "minecraft:set_count",
+  "count": {"type":"storage","storage":"buried:temp","path":"resource_spawner.count"},
+  "add": true
+}

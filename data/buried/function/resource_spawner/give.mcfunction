@@ -1,0 +1,3 @@
+# speed(int) warm_up(int) range(int) item(id) count(int)
+
+$give @p minecraft:allay_spawn_egg[minecraft:item_model="minecraft:spawner", enchantment_glint_override=true, minecraft:rarity=epic, minecraft:item_name="Resource Spawner", minecraft:entity_data={id:block_display, Tags:["spawner_instance"], data:{speed:$(speed),warm_up:$(warm_up),range:$(range),item:$(item),count:$(count)}},custom_data={spawner:true},lore=[{text:"Item: $(count)*$(item)",color:"gray",italic:false},{text:"Range: $(range)",color:"gray",italic:false},{text:"Speed: $(speed)",color:"gray",italic:false},{text:"Warm Up: $(warm_up)",color:"gray",italic:false}]]
