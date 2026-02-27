@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "key": {
+    "#": "minecraft:knowledge_book",
+    "b": "minecraft:bedrock"
+  },
+  "pattern": [
+    "#  ",
+    "#  ",
+    "b  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:knowledge_book"
+  }
+}

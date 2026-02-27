@@ -1,0 +1,16 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "count": 19,
+    "distance": 4,
+    "preferred_biomes": "buried:overworld",
+    "salt": 0,
+    "spread": 3
+  },
+  "structures": [
+    {
+      "structure": "buried:resource_room",
+      "weight": 8
+    }
+  ]
+}

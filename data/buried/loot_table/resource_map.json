@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "destination": "buried:resource_room",
+                            "decoration": "minecraft:target_x",
+                            "function": "minecraft:exploration_map",
+                            "search_radius": 32,
+                            "skip_existing_chunks": false,
+                            "zoom": 3
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": "Resource Map",
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:map_color": 954963
+                            }
+                        }
+                    ],
+                    "name": "minecraft:map"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

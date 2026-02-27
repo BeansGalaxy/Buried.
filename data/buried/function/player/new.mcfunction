@@ -1,13 +1,14 @@
-fill 1 63 1 -1 63 -1 air replace #dirt 
-fill 1 63 1 -1 63 -1 grass_block destroy
-
 function buried:player/clear_spawn
 
-setblock 0 64 0 torch keep
-tp @s 0 64 0
+execute if score init buried matches ..1 run return run function buried:new_game/hold_new_player
 
-item replace entity @a hotbar.7 with stone_pickaxe
-item replace entity @a hotbar.8 with water_bucket
+item replace entity @s hotbar.0 with stone_pickaxe
 
-tellraw @a [{text:"Welcome ",color:"aqua"},{selector:"@s"},{text:"!"}]
+item replace entity @s hotbar.7 with oak_sapling 2
+item replace entity @s hotbar.8 with dirt 4
+
 tag @s add init
+tellraw @a [{text:"Welcome ",color:"aqua"},{selector:"@s"},{text:"!"}]
+
+setblock -1 64 -1 torch keep
+tp @s 0 64 0
