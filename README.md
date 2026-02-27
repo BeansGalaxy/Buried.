@@ -3,25 +3,12 @@
 Buried is a datapack built to challenge the player's technical knowledge 
 in order to progress in a solid stone world. 
 
-Generation is similar to Minecraft's vanilla underground with a few changes;
 - Ores do not generate
 - Biomes do not generate
 - The only points of interest which generate are; Trial Chambers, Mineshafts, Monster Spawners, Geodes, and Large Ore Veins
-- Spawn is equipped with "Resource Spawners" which give the player an unlimited supply of Oak Saplings or Dirt
+- When Creating a new world or joining the server for the first time, players are greeted with a short cutscene before being given a few items to start (Cut Scene is limited to 10 players)
+- A Resource Map is given to the player when first joining to lead them to the nearest Resource Room
+- Resource Rooms generate randomly in concentric circles around spawn which hold Resource Spawners that give an unlimited amount of essential/unobtainable items
+- Respawning gives the player a Stone Pickaxe incase spawn is trapped
 
-
-This is only a working version which has some incomplete aspects I need help solving... 
-1. Iron can be obtained through structures or with Iron Golem Farms in bulk, but, 
-in order to cure villagers the player needs gold which is obtained through structures. 
-Seems like a feedback loop which forces players to get expensive gear from trial 
-chambers to only get access to iron too late in the progression.
-2. Joining the world for the first time the player is given a Water Bucket. 
-Food is an unsolved issue in the early game because without water, you cannot 
-grow crops but the challenge of obtaining water in the late game from a trial 
-chamber sounds like a fun way to shuffle progression. Either I gave the player 
-a water bucket to solve their hunger or I leave a chicken spawner at spawn which 
-both ideas have their pros/cons.
-
-Any ideas to these mid-game problems or thoughts on any additions/changes, leave them in as an issue. Thanks to the 
-Stonebox community for the inspiration to this datapack :-)
 
