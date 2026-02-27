@@ -6,7 +6,7 @@ in order to progress in a solid stone world.
 Generation is similar to Minecraft's vanilla underground with a few changes;
 - Ores do not generate
 - Biomes do not generate
-- Trial Chambers, Mineshafts, Monster Spawners and Geodes generate
+- The only points of interest which generate are; Trial Chambers, Mineshafts, Monster Spawners, Geodes, and Large Ore Veins
 - Spawn is equipped with "Resource Spawners" which give the player an unlimited supply of Oak Saplings or Dirt
 
 
