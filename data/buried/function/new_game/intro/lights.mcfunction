@@ -14,5 +14,5 @@ execute as @e[type=#buried:avatar] at @s run summon minecraft:item ~0.5 65.5 ~0.
 execute as @e[type=#buried:avatar] run attribute @s movement_speed base reset
 execute as @e[type=#buried:avatar] run attribute @s jump_strength base reset
 
-kill @e[type=!#buried:avatar,scores={new_game=0..}]
-scoreboard players reset @e[type=!minecraft:player] new_game
+kill @e[type=!#buried:avatar,scores={buried.new_game=0..}]
+scoreboard players reset @e[type=!minecraft:player] buried.new_game

@@ -1,15 +1,15 @@
 {
   "placement": {
     "type": "minecraft:concentric_rings",
-    "count": 19,
-    "distance": 4,
+    "count": 256,
+    "distance": 2,
     "preferred_biomes": "buried:overworld",
-    "salt": 0,
-    "spread": 3
+    "spread": 3,
+    "salt": 0
   },
   "structures": [
     {
-      "structure": "buried:resource_room",
+      "structure": "buried:spawner/room",
       "weight": 8
     }
   ]

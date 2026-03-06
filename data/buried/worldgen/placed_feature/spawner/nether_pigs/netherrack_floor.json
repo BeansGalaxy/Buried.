@@ -1,0 +1,9 @@
+{
+  "feature": "buried:spawner/nether_pigs/netherrack_floor",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 5
+    }
+  ]
+}

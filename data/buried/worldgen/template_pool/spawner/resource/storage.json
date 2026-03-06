@@ -1,0 +1,24 @@
+{
+  "name": "buried:trader",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "buried:spawner/resource/storage",
+        "processors": "buried:spawner/andesite_weather",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "buried:spawner/resource/simple",
+        "processors": "buried:spawner/andesite_weather",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

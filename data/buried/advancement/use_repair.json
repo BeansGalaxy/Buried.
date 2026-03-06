@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "scrap": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:netherite_scrap"
+        }
+      }
+    },
+    "ingot": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:netherite_ingot"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "scrap",
+      "ingot"
+    ]
+  ],
+  "rewards": {
+    "function": "buried:advancement/use_repair"
+  }
+}

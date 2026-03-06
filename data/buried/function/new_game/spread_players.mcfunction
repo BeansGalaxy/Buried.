@@ -1,0 +1,1 @@
+spreadplayers 0 0 4.5 8 false @e[type=#buried:avatar,scores={buried.new_game=0..}]

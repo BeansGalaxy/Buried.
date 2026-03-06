@@ -1,0 +1,33 @@
+{
+  "name": "buried:spawner/trader/lamp",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "buried:spawner/trader/lamp/0",
+        "processors": "empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "buried:spawner/trader/lamp/1",
+        "processors": "empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "buried:spawner/trader/lamp/2",
+        "processors": "empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "feature": "buried:spawner/trader/peony",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 3
+    }
+  ]
+}

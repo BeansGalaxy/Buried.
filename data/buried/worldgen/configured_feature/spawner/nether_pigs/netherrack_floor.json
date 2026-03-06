@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 12,
+    "xz_spread": 15,
+    "y_spread": 1,
+    "feature": {
+      "feature": {
+        "type": "minecraft:disk",
+        "config": {
+          "half_height": 1,
+          "radius": {
+            "type": "biased_to_bottom",
+            "max_inclusive": 2,
+            "min_inclusive": 0
+          },
+          "state_provider": {
+            "fallback": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:netherrack"
+              }
+            },
+            "rules": [
+              {
+                "if_true": {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:crimson_roots",
+                    "minecraft:crimson_fungus",
+                    "minecraft:warped_fungus"
+                  ]
+                },
+                "then": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:crimson_nylium"
+                  }
+                }
+              }
+            ]
+          },
+          "target": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:netherrack",
+              "minecraft:crimson_nylium",
+              "minecraft:warped_nylium"
+            ]
+          }
+        }
+      },
+      "placement": []
+    }
+  }
+}

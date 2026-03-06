@@ -11,8 +11,8 @@
                             "decoration": "minecraft:target_x",
                             "function": "minecraft:exploration_map",
                             "search_radius": 32,
-                            "skip_existing_chunks": false,
-                            "zoom": 3
+                            "skip_existing_chunks": true,
+                            "zoom": 1
                         },
                         {
                             "function": "minecraft:set_name",

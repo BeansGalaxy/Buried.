@@ -1,0 +1,15 @@
+{
+  "name": "buried:trader",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "buried:spawner/trader/sunflower",
+        "processors": "buried:spawner/trader_room_weather",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

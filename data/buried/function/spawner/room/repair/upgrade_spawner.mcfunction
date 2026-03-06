@@ -1,0 +1,1 @@
+return run tag @n[distance=..1,type=block_display,tag=buried.spawner] add buried.spawner.upgraded
